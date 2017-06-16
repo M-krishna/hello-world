@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>My Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,16 +13,17 @@
 <nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header page-scroll">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar1">
 <span class="sr-only">Toggle Navigation</span><i class="fa fa-bars"></i>
 </button>
 <a class="navbar-brand" href="#page-top">WELCOME</a>
 </div>
-<div class="collapse navbar-collapse" id="myNavbar">
-<ul class="nav navbar-nav navbar-right">
+<div class="collapse navbar-collapse" id="myNavbar1">
+<ul class="nav nav-pills pull-right">
 <li class="hidden"><a href="#page-top"></a></li>
 <li class="page-scroll"><a href="#about">About</a></li>
-<li class="page-scroll"><a href="#studies">Studies</a></li>
+  <li class="page-scroll"><a href="#studies">Studies</a></li>
+  <li class="page-scroll"><a href="#skills">Skills</a></li>
 <li class="page-scroll"><a href="#extra">Extra-Curricular</a></li>
 <li class="page-scroll"><a href="#projects">Projects</a></li>
 </ul>
@@ -30,7 +32,7 @@
 </nav>
 
 <!-- About -->
-<header>
+<header id="about">
 <div class="container"  tab-index="-1">
 <div class="row">
 <div class="col-lg-12">
@@ -46,28 +48,39 @@
 
 <!-- Studies -->
 
-<section id="about">
+<section id="studies">
 <div class="container">
 <div class="row">
-<div class="col-sm-4">
-<h2 class="text-center">High School</h2>
-
-</div>
-<div class="col-sm-4"><h2 class="text-center">Higher Secondary School</h2></div>
-<div class="col-sm-4"><h2 class="text-center">College</h2></div>
+  <div class="col-lg-4 col-md-4">
+    <h2 class="text-center">High School</h2>
+    <div class="row">
+      <div class="col-lg-6"><h4 class="text-center">Name:Pearl Matric School</h4></div></div>
+    <div class="row">
+      <div class="col-lg-6"><h4 class="text-center">Year:2012</h4></div></div>
+    
+  </div>
+<div class="col-lg-4 col-md-4"><h2 class="text-center">Higher Secondary School</h2></div>
+<div class="col-lg-4 col-md-4"><h2 class="text-center">College</h2></div>
 
 </div>
 </div>
 </section>
 
 
+<!-- Skills -->
+
+  
+  
+  <!-- Extra-curricular -->
+  
+  <!-- Projects -->
 
 
 
 
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
